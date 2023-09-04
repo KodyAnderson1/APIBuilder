@@ -1,0 +1,27 @@
+{
+  "name": "@KodyAnderson1/api-builder",
+  "version": "1.0.0",
+  "description": "A lightweight and robust TypeScript utility to streamline the process of building and executing API requests. With the api-builder, developers can construct HTTP requests fluently, ensuring consistency, clarity, and simplicity in communication with backend services.",
+  "main": "dist/APIBuilder.js",
+  "types": "dist/APIBuilder.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KodyAnderson1/APIBuilder.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "keywords": [],
+  "author": "Kody Anderson",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "axios": "^1.5.0"
+  }
+}
