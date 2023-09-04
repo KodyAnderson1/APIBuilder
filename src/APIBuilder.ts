@@ -4,7 +4,7 @@ import axios from "axios";
  * The APIRequestBuilder provides a fluent interface for constructing
  * API requests using HTTP methods, headers, query parameters, and more.
  */
-class APIRequestBuilder {
+export default class APIRequestBuilder {
     private method: string = 'GET';
     private baseUrl: string;
     private resource: string = '';

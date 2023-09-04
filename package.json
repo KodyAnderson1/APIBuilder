@@ -1,6 +1,6 @@
 {
-  "name": "@KodyAnderson1/api-builder",
-  "version": "1.0.0",
+  "name": "@kodyanderson1/api-builder",
+  "version": "1.0.1",
   "description": "A lightweight and robust TypeScript utility to streamline the process of building and executing API requests. With the api-builder, developers can construct HTTP requests fluently, ensuring consistency, clarity, and simplicity in communication with backend services.",
   "main": "dist/APIBuilder.js",
   "types": "dist/APIBuilder.d.ts",
