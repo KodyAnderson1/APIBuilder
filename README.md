@@ -44,7 +44,7 @@ const api = new APIRequestBuilder('https://api.example.com', 'YOUR_TOKEN');
 
 ### Execution
 - `.execute()`: Executes the API request with the previously defined configurations.
--
+
 ### Example
 ```typescript
 const result = await new APIRequestBuilder('https://api.example.com', 'YOUR_TOKEN')
@@ -83,6 +83,3 @@ const result = await new APIRequestBuilder('https://api.example.com')
     .setRelativePath("/some-endpoint")
     .execute();
 ```
-
-## Contributing
-Contributions are welcome! Please read the CONTRIBUTING.md for guidelines.
